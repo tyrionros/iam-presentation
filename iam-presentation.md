@@ -19,43 +19,37 @@ Identity and Access Management (IAM) is the security discipline that makes it po
 
 ---
 
-## Key IAM Concepts
-
-- Authentication
-- Authorization
-- Single Sign-On (SSO)
-- Multi-Factor Authentication (MFA)
-- Privileged Access Management (PAM)
+## The 5-Stage IAM Lifecycle
 
 ---
 
-## The 4 A's of IAM
+### Stage 0: Request Initiation
+
+A new hire, role change, or access need is formally requested from various processes such as P2, P3, P47a, P46e and P51.
 
 ---
 
-### Administration
+### Stage 1: Identity Provisioning
 
-User Administration, including provisioning and deprovisioning of accounts.
-
----
-
-### Authentication
-
-Answers the question: "Who are you?". This is where Multi-Factor Authentication (MFA) comes into play.
+A set of requirements for the provisioning of account is accounted or gathered such as Company (Business Unit), role, agreements for customer and etc.
 
 ---
 
-### Authorization
+### Stage 2: Access Control
 
-Answers the question: "Are you allowed to do what you are trying to do?".
-
-**Note:** Authentication and Authorization are collectively known as Access Management.
+A unique digital identity is created in Microsoft Azure (Guest/Member) and specific permissions are assigned or revoked based on the user's role and "least privilege" principles.
 
 ---
 
-### Audit
+### Stage 3: Compliance Check
 
-Ensuring that the previous A's (Administration, Authentication, and Authorization) are implemented and working correctly.
+All changes are logged, reviewed and approved to meet security policies and regulatory standards.
+
+---
+
+### Stage 4: Monitoring
+
+Monitoring of IAM Security for events pertaining to IAM endpoints provided to check for risks, vulnerabilities updates/role changes etc.
 
 ---
 
