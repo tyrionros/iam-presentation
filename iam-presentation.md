@@ -19,6 +19,16 @@ Identity and Access Management (IAM) is the security discipline that makes it po
 
 ---
 
+## Key IAM Concepts
+
+- Authentication
+- Authorization
+- Single Sign-On (SSO)
+- Multi-Factor Authentication (MFA)
+- Privileged Access Management (PAM)
+
+---
+
 ## The 5-Stage IAM Lifecycle
 
 ---
